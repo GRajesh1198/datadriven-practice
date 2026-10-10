@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-06-13 |
 | [Above Average Product Prices](./practice/sql/above-average-product-prices) | SQL | Medium | 2026-06-13 |
 
 <!-- datadriven:index:end -->
