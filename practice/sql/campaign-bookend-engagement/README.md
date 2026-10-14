@@ -12,7 +12,7 @@
 | Accepted | on the first submission |
 | Time | 1 h 54 min |
 | Hints | none |
-| Query complexity | O(n log n), optimal |
+| Query complexity | O(n²), the optimum is O(n log n) |
 | Concepts | Conditional Logic, Conditional Aggregation, Counting, Common Table Expressions, Grouping, Query Basics, Scalar Subquery, Sums & Averages |
 
 The accepted solution is in [`solution.sql`](./solution.sql).
