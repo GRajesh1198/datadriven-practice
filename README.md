@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-14 |
 | [Cost Share Within Category](./practice/sql/cost-share-within-category) | SQL | Medium | 2026-10-10 |
 | [Ghosts in the Ledger](./practice/data_modeling/ghosts-in-the-ledger) | Data Modeling | Easy | 2026-07-06 |
 | [Beyond the Signup](./practice/sql/beyond-the-signup) | SQL | Medium | 2026-06-13 |
