@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Medium | 2026-10-15 |
 | [Top Shelf](./practice/sql/top-shelf) | SQL | Easy | 2026-10-14 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-14 |
 | [Cost Share Within Category](./practice/sql/cost-share-within-category) | SQL | Medium | 2026-10-10 |
