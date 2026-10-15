@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Overlapping User Sessions](./practice/sql/overlapping-user-sessions) | SQL | Medium | 2026-10-15 |
 | [The Weight of a Verdict](./practice/sql/the-weight-of-a-verdict) | SQL | Easy | 2026-10-15 |
 | [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Medium | 2026-10-15 |
 | [Top Shelf](./practice/sql/top-shelf) | SQL | Easy | 2026-10-14 |
