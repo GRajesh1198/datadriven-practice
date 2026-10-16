@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Three Peaks](./practice/sql/three-peaks) | SQL | Hard | 2026-10-16 |
 | [Normalization Tradeoffs in Practice](./practice/sql/normalization-tradeoffs-in-practice) | SQL | Hard | 2026-10-16 |
 | [Overlapping User Sessions](./practice/sql/overlapping-user-sessions) | SQL | Medium | 2026-10-15 |
 | [The Weight of a Verdict](./practice/sql/the-weight-of-a-verdict) | SQL | Easy | 2026-10-15 |
