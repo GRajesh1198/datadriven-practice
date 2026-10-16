@@ -1,4 +1,4 @@
-select team_name,period_cost as monthly_cost from 
+select distinct team_name,period_cost as monthly_cost from 
 (select 
   team_name,
   period_cost,
