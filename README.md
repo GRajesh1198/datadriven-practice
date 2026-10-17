@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Across the Aisles](./practice/sql/across-the-aisles) | SQL | Hard | 2026-10-17 |
 | [Second Purchase](./practice/sql/second-purchase) | SQL | Hard | 2026-10-17 |
 | [Services With Most Checks in 2025](./practice/sql/services-with-most-checks-in-year-1) | SQL | Hard | 2026-10-16 |
 | [Three Peaks](./practice/sql/three-peaks) | SQL | Hard | 2026-10-16 |
