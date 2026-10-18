@@ -12,7 +12,7 @@
 | Accepted | on the first submission |
 | Time | 10 min |
 | Hints | none |
-| Query complexity | O(n log n), optimal |
+| Query complexity | O(n²), the optimum is O(n log n) |
 | Concepts | Column Expressions, DataFrame Basics, Deduplication, Filtering, Null Checks, Reading & Writing, SQL Expressions in DataFrames, Case Conversion, Transformation Chaining, Derived Columns |
 
 The accepted solution is in [`solution.sql`](./solution.sql).
