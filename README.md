@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [First Migration Record](./practice/sql/first-migration-record) | SQL | Easy | 2026-10-20 |
 | [Average Session Duration by Device](./practice/sql/average-session-duration-by-device) | SQL | Easy | 2026-10-20 |
 | [Duplicated User Event Messages](./practice/sql/duplicated-user-event-messages) | SQL | Medium | 2026-10-20 |
 | [Device Type Serving Most Users](./practice/sql/device-type-serving-most-users) | SQL | Medium | 2026-10-20 |
