@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Weekly Build Status Report](./practice/sql/weekly-build-status-report) | SQL | Hard | 2026-10-22 |
 | [The Perennials](./practice/sql/the-perennials) | SQL | Easy | 2026-10-22 |
 | [Inactive Users in Date Range](./practice/sql/inactive-users-in-date-range) | SQL | Medium | 2026-10-22 |
 | [Highest and Lowest Cloud Costs](./practice/sql/highest-and-lowest-cloud-costs) | SQL | Medium | 2026-10-21 |
