@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/lone_drake_1064), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Inactive Users in Date Range](./practice/sql/inactive-users-in-date-range) | SQL | Medium | 2026-10-22 |
 | [Highest and Lowest Cloud Costs](./practice/sql/highest-and-lowest-cloud-costs) | SQL | Medium | 2026-10-21 |
 | [First Migration Record](./practice/sql/first-migration-record) | SQL | Easy | 2026-10-20 |
 | [Average Session Duration by Device](./practice/sql/average-session-duration-by-device) | SQL | Easy | 2026-10-20 |
