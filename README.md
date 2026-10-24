@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Above the Fold](./practice/sql/above-the-fold) | SQL | Hard | 2026-10-24 |
 | [The Org Chart in Numbers](./practice/sql/the-org-chart-in-numbers) | SQL | Hard | 2026-10-24 |
 | [Then and Now](./practice/sql/then-and-now) | SQL | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/sql/balance-of-arms) | SQL | Hard | 2026-10-23 |
