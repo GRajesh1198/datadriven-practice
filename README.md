@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Quiet Alarms](./practice/sql/the-quiet-alarms) | SQL | Medium | 2026-10-24 |
 | [Campaign Click Rate](./practice/sql/campaign-click-rate) | SQL | Medium | 2026-10-24 |
 | [The A/B Verdict](./practice/sql/the-a-b-verdict) | SQL | Medium | 2026-10-24 |
 | [Above the Fold](./practice/sql/above-the-fold) | SQL | Hard | 2026-10-24 |
