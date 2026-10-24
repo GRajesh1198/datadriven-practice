@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Then and Now](./practice/sql/then-and-now) | SQL | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/sql/balance-of-arms) | SQL | Hard | 2026-10-23 |
 | [Long Messages](./practice/sql/long-messages) | SQL | Medium | 2026-10-23 |
 | [Parallel Traces](./practice/sql/parallel-traces) | SQL | Medium | 2026-10-23 |
