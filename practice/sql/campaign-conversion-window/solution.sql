@@ -1,40 +1,40 @@
-# clicks
-# converter 
-# coverter is a unqiue user who clicked one of the comapign;s adds and transaction date impression date and 7 days after
+impressions = (
+  spark.table("ad_impressions")
+  .where(F.col("user_id").isNotNull())
+  .alias("ai")
+)
+purchases = spark.table("transactions").alias("t")
 
-a = spark.table("ad_impressions")
-t = spark.table("transactions")
-agg = col("impression_id")
-clicks = when(col("clicked") == 1,1).otherwise(0)
-unique_clickers = when(col("transaction_id").isNotNull(),col(t["user_id"]))
-de = when((a["clicked"] == 1) & (t["transaction_id"].isNotNull()),col(t["user_id"]))
-pct = round((col("clicks")/col("impressions")) * 100,2)
-pct1 = (col("conversions")/col("total")) * 100
-r = (
-    a
-    .join(t, (a["user_id"] == t["user_id"])
-      & (
-        to_date(col("transaction_date")).between(to_date(col("impression_time")),date_add(to_date(col("impression_time")),7))
-        ) 
-      &
-      (a["clicked"] == 1)
-      ,"left")
-     .filter(a["user_id"].isNotNull())
-     .groupBy('ad_campaign')
-     .agg(
-       count(agg).alias("impressions"),sum(clicks).alias("clicks"),
-       countDistinct(unique_clickers).alias("conversions"),
-       countDistinct(de).alias("total")
-       )
-     .withColumn("ctr_pct",pct)
-     .withColumn("conversion_rate_pct",pct1)
-     .filter(col("clicks") >= 4)
-     .select("ad_campaign","impressions","clicks","ctr_pct","conversions","conversion_rate_pct")
+days_after_click = F.datediff(
+  F.col("t.transaction_date"), F.to_date(F.col("ai.impression_time"))
+)
+bought_in_window = (
+  (F.col("t.user_id") == F.col("ai.user_id"))
+  & (F.col("ai.clicked") == 1)
+  & days_after_click.between(0, 7)
+)
+
+clicked_impression = F.when(F.col("ai.clicked") == 1, F.col("ai.impression_id"))
+clicked_user = F.when(F.col("ai.clicked") == 1, F.col("ai.user_id"))
+converted_user = F.when(F.col("t.transaction_id").isNotNull(), F.col("ai.user_id"))
+
+unclicked = F.sum(F.when(F.col("ai.clicked") == 0, 1).otherwise(0))
+clicks = F.countDistinct(clicked_impression)
+impression_count = unclicked + clicks
+conversions = F.countDistinct(converted_user)
+clickers = F.countDistinct(clicked_user)
+
+result = (
+  impressions.join(purchases, bought_in_window, "left")
+  .groupBy(F.col("ai.ad_campaign"))
+  .agg(
+    impression_count.alias("impressions"),
+    clicks.alias("clicks"),
+    F.round(clicks.cast("double") / impression_count * 100, 2).alias("ctr_pct"),
+    conversions.alias("conversions"),
+    F.round(
+      F.when(conversions > 0, F.lit(100.0) * conversions / clickers), 2
+    ).alias("conversion_rate_pct"),
   )
-
-# .groupBy("ad_campaign")
-  # .agg(sum(a1).alias("total_clicks"),count(a2).alias("impressions"))
-
-## this left join wll give me all users,who clicked but did not have a transaction will be null
-## 4 clicks per ad_campaign
-# Your unique_clickers only captures users who matched a transaction, so you have no denominator for the conversion rate. Add a separate countDistinct wrapped in a when on a["clicked"] == 1 that counts a["user_id"] for the campaign's unique clickers. Keep the converter count in its own countDistinct gated on t["transaction_id"].isNotNull(), and alias each o
+  .where(F.col("clicks") >= 4)
+)
