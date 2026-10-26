@@ -1,0 +1,43 @@
+{
+  "tables": [
+    {
+      "name": "customer",
+      "columns": [
+        {
+          "name": "customer_sk",
+          "type": "BIGINT",
+          "key": "pk"
+        },
+        {
+          "name": "customer_id",
+          "type": "BIGINT"
+        },
+        {
+          "name": "name",
+          "type": "TEXT"
+        },
+        {
+          "name": "age",
+          "type": "INT"
+        },
+        {
+          "name": "customeraddress",
+          "type": "TEXT"
+        },
+        {
+          "name": "valid_from_timestamp",
+          "type": "TIMESTAMP"
+        },
+        {
+          "name": "valid_to_timestamp",
+          "type": "TIMESTAMP"
+        },
+        {
+          "name": "is_valid",
+          "type": "BOOLEAN"
+        }
+      ]
+    }
+  ],
+  "relationships": []
+}
