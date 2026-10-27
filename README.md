@@ -24,6 +24,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Parallel Traces](./practice/sql/parallel-traces) | SQL | Medium | 2026-10-23 |
 | [Weekly Build Status Report](./practice/sql/weekly-build-status-report) | SQL | Hard | 2026-10-22 |
 | [The Perennials](./practice/sql/the-perennials) | SQL | Easy | 2026-10-22 |
+| [The Perennials](./practice/spark/the-perennials) | Spark | Easy | 2026-10-22 |
 | [Inactive Users in Date Range](./practice/sql/inactive-users-in-date-range) | SQL | Medium | 2026-10-22 |
 | [Highest and Lowest Cloud Costs](./practice/sql/highest-and-lowest-cloud-costs) | SQL | Medium | 2026-10-21 |
 | [First Migration Record](./practice/sql/first-migration-record) | SQL | Easy | 2026-10-20 |
@@ -31,8 +32,8 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Duplicated User Event Messages](./practice/sql/duplicated-user-event-messages) | SQL | Medium | 2026-10-20 |
 | [Device Type Serving Most Users](./practice/sql/device-type-serving-most-users) | SQL | Medium | 2026-10-20 |
 | [Customer Full Name Concat](./practice/sql/customer-full-name-concat) | SQL | Easy | 2026-10-18 |
-| [Top 2 Busiest API Slots](./practice/sql/top-2-busiest-api-slots) | SQL | Medium | 2026-10-18 |
 | [Top 2 Busiest API Slots](./practice/spark/top-2-busiest-api-slots) | Spark | Medium | 2026-10-18 |
+| [Top 2 Busiest API Slots](./practice/sql/top-2-busiest-api-slots) | SQL | Medium | 2026-10-18 |
 | [Views by Content Type](./practice/spark/views-by-content-type) | Spark | Medium | 2026-10-18 |
 | [Views by Content Type](./practice/sql/views-by-content-type) | SQL | Medium | 2026-10-18 |
 | [Selling Where Nobody Lives](./practice/spark/selling-where-nobody-lives) | Spark | Medium | 2026-10-18 |
