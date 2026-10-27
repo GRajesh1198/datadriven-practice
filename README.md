@@ -32,8 +32,9 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Device Type Serving Most Users](./practice/sql/device-type-serving-most-users) | SQL | Medium | 2026-10-20 |
 | [Customer Full Name Concat](./practice/sql/customer-full-name-concat) | SQL | Easy | 2026-10-18 |
 | [Top 2 Busiest API Slots](./practice/sql/top-2-busiest-api-slots) | SQL | Medium | 2026-10-18 |
-| [Views by Content Type](./practice/sql/views-by-content-type) | SQL | Medium | 2026-10-18 |
+| [Top 2 Busiest API Slots](./practice/spark/top-2-busiest-api-slots) | Spark | Medium | 2026-10-18 |
 | [Views by Content Type](./practice/spark/views-by-content-type) | Spark | Medium | 2026-10-18 |
+| [Views by Content Type](./practice/sql/views-by-content-type) | SQL | Medium | 2026-10-18 |
 | [Selling Where Nobody Lives](./practice/spark/selling-where-nobody-lives) | Spark | Medium | 2026-10-18 |
 | [Selling Where Nobody Lives](./practice/sql/selling-where-nobody-lives) | SQL | Medium | 2026-10-18 |
 | [Tokens With Non-Read Scope Prefix](./practice/sql/tokens-with-non-read-scope-prefix) | SQL | Medium | 2026-10-18 |
