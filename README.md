@@ -9,8 +9,8 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
 | [Where Everyone Was](./practice/data_modeling/where-everyone-was) | Data Modeling | Easy | 2026-10-26 |
-| [Users With Admin Tokens](./practice/sql/users-with-admin-tokens) | SQL | Medium | 2026-10-25 |
 | [Users With Admin Tokens](./practice/spark/users-with-admin-tokens) | Spark | Medium | 2026-10-25 |
+| [Users With Admin Tokens](./practice/sql/users-with-admin-tokens) | SQL | Medium | 2026-10-25 |
 | [Campaign Conversion Window](./practice/spark/campaign-conversion-window) | Spark | Hard | 2026-10-25 |
 | [Campaign Conversion Window](./practice/sql/campaign-conversion-window) | SQL | Hard | 2026-10-25 |
 | [Minimum Parallel Workers](./practice/spark/minimum-parallel-workers) | Spark | Hard | 2026-10-24 |
@@ -29,7 +29,6 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Then and Now](./practice/spark/then-and-now) | Spark | Hard | 2026-10-24 |
 | [Then and Now](./practice/sql/then-and-now) | SQL | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/spark/balance-of-arms) | Spark | Hard | 2026-10-23 |
-| [Balance of Arms](./practice/sql/balance-of-arms) | SQL | Hard | 2026-10-23 |
 | [Long Messages](./practice/spark/long-messages) | Spark | Medium | 2026-10-23 |
 | [Long Messages](./practice/sql/long-messages) | SQL | Medium | 2026-10-23 |
 | [Parallel Traces](./practice/spark/parallel-traces) | Spark | Medium | 2026-10-23 |
