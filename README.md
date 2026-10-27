@@ -13,9 +13,10 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Campaign Conversion Window](./practice/sql/campaign-conversion-window) | SQL | Hard | 2026-10-25 |
 | [Minimum Parallel Workers](./practice/sql/minimum-parallel-workers) | SQL | Hard | 2026-10-24 |
 | [Quarters Apart](./practice/sql/quarters-apart) | SQL | Hard | 2026-10-24 |
+| [Quarters Apart](./practice/spark/quarters-apart) | Spark | Hard | 2026-10-24 |
 | [The Quiet Alarms](./practice/sql/the-quiet-alarms) | SQL | Medium | 2026-10-24 |
-| [Campaign Click Rate](./practice/sql/campaign-click-rate) | SQL | Medium | 2026-10-24 |
 | [Campaign Click Rate](./practice/spark/campaign-click-rate) | Spark | Medium | 2026-10-24 |
+| [Campaign Click Rate](./practice/sql/campaign-click-rate) | SQL | Medium | 2026-10-24 |
 | [The A/B Verdict](./practice/spark/the-a-b-verdict) | Spark | Medium | 2026-10-24 |
 | [The A/B Verdict](./practice/sql/the-a-b-verdict) | SQL | Medium | 2026-10-24 |
 | [Above the Fold](./practice/spark/above-the-fold) | Spark | Hard | 2026-10-24 |
