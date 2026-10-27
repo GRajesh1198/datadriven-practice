@@ -21,8 +21,9 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Then and Now](./practice/sql/then-and-now) | SQL | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/sql/balance-of-arms) | SQL | Hard | 2026-10-23 |
 | [Long Messages](./practice/sql/long-messages) | SQL | Medium | 2026-10-23 |
-| [Parallel Traces](./practice/sql/parallel-traces) | SQL | Medium | 2026-10-23 |
+| [Long Messages](./practice/spark/long-messages) | Spark | Medium | 2026-10-23 |
 | [Parallel Traces](./practice/spark/parallel-traces) | Spark | Medium | 2026-10-23 |
+| [Parallel Traces](./practice/sql/parallel-traces) | SQL | Medium | 2026-10-23 |
 | [Weekly Build Status Report](./practice/spark/weekly-build-status-report) | Spark | Hard | 2026-10-22 |
 | [Weekly Build Status Report](./practice/sql/weekly-build-status-report) | SQL | Hard | 2026-10-22 |
 | [The Perennials](./practice/spark/the-perennials) | Spark | Easy | 2026-10-22 |
