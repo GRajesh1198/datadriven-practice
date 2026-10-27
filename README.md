@@ -17,8 +17,9 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Campaign Click Rate](./practice/sql/campaign-click-rate) | SQL | Medium | 2026-10-24 |
 | [The A/B Verdict](./practice/sql/the-a-b-verdict) | SQL | Medium | 2026-10-24 |
 | [Above the Fold](./practice/sql/above-the-fold) | SQL | Hard | 2026-10-24 |
-| [The Org Chart in Numbers](./practice/sql/the-org-chart-in-numbers) | SQL | Hard | 2026-10-24 |
+| [Above the Fold](./practice/spark/above-the-fold) | Spark | Hard | 2026-10-24 |
 | [The Org Chart in Numbers](./practice/spark/the-org-chart-in-numbers) | Spark | Hard | 2026-10-24 |
+| [The Org Chart in Numbers](./practice/sql/the-org-chart-in-numbers) | SQL | Hard | 2026-10-24 |
 | [Then and Now](./practice/spark/then-and-now) | Spark | Hard | 2026-10-24 |
 | [Then and Now](./practice/sql/then-and-now) | SQL | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/spark/balance-of-arms) | Spark | Hard | 2026-10-23 |
