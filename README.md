@@ -26,7 +26,6 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Parallel Traces](./practice/spark/parallel-traces) | Spark | Medium | 2026-10-23 |
 | [Weekly Build Status Report](./practice/spark/weekly-build-status-report) | Spark | Hard | 2026-10-22 |
 | [The Perennials](./practice/spark/the-perennials) | Spark | Easy | 2026-10-22 |
-| [The Perennials](./practice/sql/the-perennials) | SQL | Easy | 2026-10-22 |
 | [Inactive Users in Date Range](./practice/sql/inactive-users-in-date-range) | SQL | Medium | 2026-10-22 |
 | [Highest and Lowest Cloud Costs](./practice/sql/highest-and-lowest-cloud-costs) | SQL | Medium | 2026-10-21 |
 | [First Migration Record](./practice/sql/first-migration-record) | SQL | Easy | 2026-10-20 |
