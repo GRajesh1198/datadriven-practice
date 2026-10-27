@@ -26,7 +26,6 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Long Messages](./practice/spark/long-messages) | Spark | Medium | 2026-10-23 |
 | [Parallel Traces](./practice/spark/parallel-traces) | Spark | Medium | 2026-10-23 |
 | [Weekly Build Status Report](./practice/spark/weekly-build-status-report) | Spark | Hard | 2026-10-22 |
-| [Weekly Build Status Report](./practice/sql/weekly-build-status-report) | SQL | Hard | 2026-10-22 |
 | [The Perennials](./practice/spark/the-perennials) | Spark | Easy | 2026-10-22 |
 | [The Perennials](./practice/sql/the-perennials) | SQL | Easy | 2026-10-22 |
 | [Inactive Users in Date Range](./practice/sql/inactive-users-in-date-range) | SQL | Medium | 2026-10-22 |
