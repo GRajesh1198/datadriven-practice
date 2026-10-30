@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [First Light](./practice/spark/first-light) | Spark | Medium | 2026-10-30 |
 | [Where Everyone Was](./practice/data_modeling/where-everyone-was) | Data Modeling | Easy | 2026-10-26 |
 | [Users With Admin Tokens](./practice/spark/users-with-admin-tokens) | Spark | Medium | 2026-10-25 |
 | [Campaign Conversion Window](./practice/spark/campaign-conversion-window) | Spark | Hard | 2026-10-25 |
