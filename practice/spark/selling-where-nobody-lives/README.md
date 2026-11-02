@@ -2,7 +2,7 @@
 
 *Shipments land in regions our customer list has never heard of.*
 
-[Spark · Medium · on DataDriven](https://datadriven.io/problems/selling_where_nobody_lives)
+[Spark · Easy · on DataDriven](https://datadriven.io/problems/selling_where_nobody_lives)
 
 ## How it went
 
