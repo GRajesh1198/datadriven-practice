@@ -1,20 +1,34 @@
-### one session after their very first session, 90 calendar days
+sessions = user_sessions.withColumn("session_date", F.to_date("session_start"))
 
-s = spark.read.table("user_sessions")
-w1 = Window.partitionBy("user_id").orderBy('session_start')
-w2 = Window.partitionBy("user_id").orderBy("session_order")
-total_users = s.select("user_id").agg(countDistinct("user_id").alias("total"))
-r = (
-    s
-    .withColumn("session_order",row_number().over(w1))
-    .withColumn("previous_session",lag('session_start').over(w2))
-    .filter(col("session_order") <= 2)
-    .withColumn("noOfDays",datediff(col("session_start"),col("previous_session")))
-    .filter(col("noOfDays").between(1,90))
-    .select("user_id")
-    .agg(count("user_id").alias("reten"))
+first_sessions = (
+  sessions
+  .groupBy("user_id")
+  .agg(F.min("session_date").alias("first_date"))
+)
+
+return_sessions = sessions.alias("us").join(
+  first_sessions.alias("fs"),
+  on=[
+    F.col("us.user_id") == F.col("fs.user_id"),
+    F.col("us.session_date") > F.col("fs.first_date"),
+    F.col("us.session_date") <= F.date_add(F.col("fs.first_date"), 90),
+  ],
+  how="inner",
+)
+
+retained_users = (
+  return_sessions
+  .select(F.col("fs.user_id").alias("retained_id"))
+  .distinct()
+)
+
+all_users = sessions.select("user_id").distinct()
+
+result = (
+  all_users
+  .join(retained_users, all_users.user_id == retained_users.retained_id, "left")
+  .agg(
+    (F.countDistinct("retained_id").cast("double")
+     / F.countDistinct("user_id")).alias("retention_rate")
   )
-rate = col("reten")/col('total')
-r1 = r.crossJoin(total_users)
-    .withColumn("retention_rate",rate)
-    .select("retention_rate")
+)
