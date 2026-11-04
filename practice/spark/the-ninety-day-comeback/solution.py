@@ -1,0 +1,20 @@
+### one session after their very first session, 90 calendar days
+
+s = spark.read.table("user_sessions")
+w1 = Window.partitionBy("user_id").orderBy('session_start')
+w2 = Window.partitionBy("user_id").orderBy("session_order")
+total_users = s.select("user_id").agg(countDistinct("user_id").alias("total"))
+r = (
+    s
+    .withColumn("session_order",row_number().over(w1))
+    .withColumn("previous_session",lag('session_start').over(w2))
+    .filter(col("session_order") <= 2)
+    .withColumn("noOfDays",datediff(col("session_start"),col("previous_session")))
+    .filter(col("noOfDays").between(1,90))
+    .select("user_id")
+    .agg(count("user_id").alias("reten"))
+  )
+rate = col("reten")/col('total')
+r1 = r.crossJoin(total_users)
+    .withColumn("retention_rate",rate)
+    .select("retention_rate")

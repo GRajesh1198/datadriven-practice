@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Ninety-Day Comeback](./practice/spark/the-ninety-day-comeback) | Spark | Hard | 2026-11-04 |
 | [The Loudest Neighbor](./practice/spark/the-loudest-neighbor) | Spark | Hard | 2026-11-02 |
 | [The Seventh Day](./practice/spark/the-seventh-day) | Spark | Medium | 2026-10-31 |
 | [First Light](./practice/spark/first-light) | Spark | Medium | 2026-10-30 |
