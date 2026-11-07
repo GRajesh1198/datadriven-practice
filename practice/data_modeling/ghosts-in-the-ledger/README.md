@@ -1,6 +1,6 @@
 # Ghosts in the Ledger
 
-*Invoices go out, partial payments trickle in, and some customers are three months overdue.*
+*Invoices go out, partial payments trickle in, and some customers are 3 months overdue.*
 
 [Data Modeling · Easy · on DataDriven](https://datadriven.io/problems/ghosts_in_the_ledger)
 
