@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Active Campaigns](./practice/sql/active-campaigns) | SQL | Easy | 2026-11-15 |
 | [Peak Concurrent Batch Jobs](./practice/spark/peak-concurrent-batch-jobs) | Spark | Medium | 2026-11-12 |
 | [Retried Failed API Calls](./practice/sql/retried-failed-api-calls) | SQL | Medium | 2026-11-07 |
 | [The Ninety-Day Comeback](./practice/spark/the-ninety-day-comeback) | Spark | Hard | 2026-11-04 |
