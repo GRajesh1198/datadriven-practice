@@ -27,7 +27,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [The Org Chart in Numbers](./practice/spark/the-org-chart-in-numbers) | Spark | Hard | 2026-10-24 |
 | [Then and Now](./practice/spark/then-and-now) | Spark | Hard | 2026-10-24 |
 | [Balance of Arms](./practice/spark/balance-of-arms) | Spark | Hard | 2026-10-23 |
-| [Long Messages](./practice/spark/long-messages) | Spark | Medium | 2026-10-23 |
+| [Long Messages](./practice/spark/long-messages) | Spark | Hard | 2026-10-23 |
 | [Parallel Traces](./practice/spark/parallel-traces) | Spark | Medium | 2026-10-23 |
 | [Weekly Build Status Report](./practice/spark/weekly-build-status-report) | Spark | Hard | 2026-10-22 |
 | [The Perennials](./practice/spark/the-perennials) | Spark | Easy | 2026-10-22 |
