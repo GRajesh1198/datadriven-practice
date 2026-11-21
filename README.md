@@ -57,7 +57,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Cost Share Within Category](./practice/sql/cost-share-within-category) | SQL | Medium | 2026-10-10 |
 | [Ghosts in the Ledger](./practice/data_modeling/ghosts-in-the-ledger) | Data Modeling | Easy | 2026-07-06 |
 | [Beyond the Signup](./practice/sql/beyond-the-signup) | SQL | Medium | 2026-06-13 |
-| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-06-13 |
+| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Medium | 2026-06-13 |
 | [Above Average Product Prices](./practice/sql/above-average-product-prices) | SQL | Medium | 2026-06-13 |
 
 <!-- datadriven:index:end -->
