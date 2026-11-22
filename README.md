@@ -52,7 +52,7 @@ Scored work from [DataDriven](https://datadriven.io/u/grajesh98), committed here
 | [Normalization Tradeoffs in Practice](./practice/sql/normalization-tradeoffs-in-practice) | SQL | Hard | 2026-10-16 |
 | [Overlapping User Sessions](./practice/sql/overlapping-user-sessions) | SQL | Medium | 2026-10-15 |
 | [The Weight of a Verdict](./practice/sql/the-weight-of-a-verdict) | SQL | Easy | 2026-10-15 |
-| [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Easy | 2026-10-15 |
+| [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Medium | 2026-10-15 |
 | [Top Shelf](./practice/sql/top-shelf) | SQL | Easy | 2026-10-14 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-14 |
 | [Cost Share Within Category](./practice/sql/cost-share-within-category) | SQL | Medium | 2026-10-10 |
